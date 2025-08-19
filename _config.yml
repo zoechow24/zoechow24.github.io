@@ -2,23 +2,23 @@
 markdown: kramdown
 
 # URL of the Site
-url: ''
+url: 'https://zoechow24.github.io'
 # Base URL of the Site (i.e., Name of the Repository in which the Site is hosted)
 baseurl: 
 
 # Title of the Site
-title: What A Theme
+title: Zoe Chow
 # Description of the Site
-description: A customizable Jekyll portfolio theme
+description: Portfolio
 # URL of Image of the Site
 site-image: /WhatATheme/assets/images/meta.jpg
 # Keywords of the Site
-site-keywords: Site, Template, Theme
+site-keywords: 
 # URL for the Image of custom Favicon
 favicon-url: 
 
 # URL of the Image of Custom Hero Image (i.e., the image in the background of the very first section of the Homepage)
-heroimage: https://images.pexels.com/photos/220444/pexels-photo-220444.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940
+heroimage: https://imgur.com/a/t9MToQO
 
 # Social Media and Contact
 # If you don't want to use any icon, you can leave them blank.
@@ -95,3 +95,4 @@ exclude:
   - vendor/cache/
   - vendor/gems/
   - vendor/ruby/
+
