@@ -1,54 +1,15 @@
 <section class="hero is-fullheight has-text-centered" id="contact">
     <div class="hero-body">
-        <div class="container">
-            <!-- Removed the big buttons section entirely -->
-            
+        <div class="container">            
             <h3 class="is-size-5 is-uppercase has-text-weight-semibold has-text-black is-marginless">
                 You Can find me here
             </h3>
 
-            <!-- DEBUG - Remove after testing -->
-            <div style="background: yellow; padding: 10px; margin: 20px 0;">
-                <p>Email: "{{ site.email }}"</p>
-                <p>LinkedIn: "{{ site.linkedin_username }}"</p>
-                <p>GitHub: "{{ site.github_username }}"</p>
-                <p>Facebook: "{{ site.facebook_username }}"</p>
-            </div>
-
             <div class="column is-full is-size-3">
-                {% if site.facebook_username and site.facebook_username != "" %}
-                <a href="http://www.facebook.com/{{site.facebook_username}}" target="_blank" class="has-text-black"><i class="fab fa-facebook"></i></a>
-                {% endif %}
-                {% if site.twitter_username and site.twitter_username != "" %}
-                <a href="https://twitter.com/intent/user?screen_name={{site.twitter_username}}" target="_blank" class="has-text-black"><i class="fab fa-twitter"></i></a>
-                {% endif %}
-                {% if site.instagram_username and site.instagram_username != "" %}
-                <a href="http://www.instagram.com/{{site.instagram_username}}" target="_blank" class="has-text-black"><i class="fab fa-instagram"></i></a>
-                {% endif %}
-                {% if site.linkedin_username and site.linkedin_username != "" %}
-                <a href="http://www.linkedin.com/in/{{site.linkedin_username}}" target="_blank" class="has-text-black"><i class="fab fa-linkedin"></i></a>
-                {% endif %}
-                {% if site.github_username and site.github_username != "" %}
-                <a href="http://www.github.com/{{site.github_username}}" target="_blank" class="has-text-black"><i class="fab fa-github"></i></a>
-                {% endif %}
-                {% if site.email and site.email != "" %}
-                <a href="mailto:{{site.email}}" target="_blank" class="has-text-black"><i class="fas fa-envelope"></i></a>
-                {% endif %}
-                {% if site.youtube_channel_id and site.youtube_channel_id != "" %}
-                <a href="http://www.youtube.com/channel/{{site.youtube_channel_id}}" target="_blank" class="has-text-black"><i class="fab fa-youtube"></i></a>
-                {% endif %}
-                {% if site.reddit_username and site.reddit_username != "" %}
-                <a href="http://www.reddit.com/u/{{site.reddit_username}}" target="_blank" class="has-text-black"><i class="fab fa-reddit"></i></a>
-                {% endif %}
-                {% if site.behance_username and site.behance_username != "" %}
-                <a href="http://www.behance.com/{{site.behance_username}}" target="_blank" class="has-text-black"><i class="fab fa-behance"></i></a>
-                {% endif %}
-                {% if site.dribbble_username and site.dribbble_username != "" %}
-                <a href="http://www.dribbble.com/{{site.dribbble_username}}" target="_blank" class="has-text-black"><i class="fab fa-dribbble"></i></a>
-                {% endif %}
-                {% if site.spotify_username and site.spotify_username != "" %}
-                <a href="http://open.spotify.com/user/{{site.spotify_username}}" target="_blank" class="has-text-black"><i class="fab fa-spotify"></i></a>
-                {% endif %}
+                <!-- Direct links without any conditional logic -->
+                <a href="mailto:chow.zo@northeastern.edu" target="_blank" class="has-text-black"><i class="fas fa-envelope"></i></a>
+                <a href="http://www.linkedin.com/in/zoe-chow-" target="_blank" class="has-text-black"><i class="fab fa-linkedin"></i></a>
+                <a href="http://www.github.com/zoechow24" target="_blank" class="has-text-black"><i class="fab fa-github"></i></a>
             </div>
         </div>
     </div>
