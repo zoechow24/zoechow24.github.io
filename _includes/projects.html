@@ -2,7 +2,34 @@
     <div class="hero-body">
         <div class="container">
             <h2 class="title is-2 has-text-black">Projects</h2>
-            <p>Projects section loaded successfully</p>
+            
+            <!-- Python Projects Section -->
+            <div style="margin-bottom: 60px;">
+                <h3 class="title is-3 has-text-black">Python</h3>
+                <div class="columns is-multiline">
+                    {% for project in site.data.projects %}
+                        {% if project.category == "Python" %}
+                        <div class="column is-one-third">
+                            {% include project-card.html %}
+                        </div>
+                        {% endif %}
+                    {% endfor %}
+                </div>
+            </div>
+            
+            <!-- R Projects Section -->
+            <div style="margin-bottom: 60px;">
+                <h3 class="title is-3 has-text-black">R</h3>
+                <div class="columns is-multiline">
+                    {% for project in site.data.projects %}
+                        {% if project.category == "R" %}
+                        <div class="column is-one-third">
+                            {% include project-card.html %}
+                        </div>
+                        {% endif %}
+                    {% endfor %}
+                </div>
+            </div>
         </div>
     </div>
 </section>
