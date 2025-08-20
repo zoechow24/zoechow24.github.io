@@ -11,11 +11,11 @@ title: Zoe Chow
 # Description of the Site
 description: Portfolio
 # URL of Image of the Site
-site-image: /WhatATheme/assets/images/meta.jpg
+site-image: https://www.canva.com/design/DAGwouWOSQk/JAzOWF-P7hZFY1WDmiql6Q/view?utm_content=DAGwouWOSQk&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h2af53d424d
 # Keywords of the Site
 site-keywords: 
 # URL for the Image of custom Favicon
-favicon-url: 
+favicon-url: https://www.canva.com/design/DAGwol_CfQU/dR04a0WoDC4xuqf1DZ2KRA/view?utm_content=DAGwol_CfQU&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=hf2617ba6a0
 
 # URL of the Image of Custom Hero Image (i.e., the image in the background of the very first section of the Homepage)
 heroimage: https://images.pexels.com/photos/220444/pexels-photo-220444.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940
@@ -95,6 +95,7 @@ exclude:
   - vendor/cache/
   - vendor/gems/
   - vendor/ruby/
+
 
 
 
