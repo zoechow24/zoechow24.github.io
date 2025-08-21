@@ -1,6 +1,11 @@
 ---
 ---
 
+:root {
+  --accent-color: #17a2b8;
+  --accent-hover: #0056b3;
+}
+
 @import "main.scss";
 
 #navbar {
@@ -352,4 +357,5 @@ a.navbar-item.is-active {
             display: inline-block;
         }
     }
+
 }
