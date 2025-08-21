@@ -373,9 +373,11 @@ a.navbar-item.is-active {
 
 #project-card:hover .card {
   background-color: var(--accent-color) !important;
+  border: 3px solid var(--accent-color) !important;
   transform: translateY(-5px);
   box-shadow: 0 8px 16px rgba(0,0,0,0.2);
 }
+
 
 
 
