@@ -72,6 +72,11 @@ a.navbar-item.is-active {
 .subtitle {
     letter-spacing: 0.25rem;
 }
+.button.is-black.is-outlined:hover {
+    background-color: var(--accent-color) !important;
+    border-color: var(--accent-color) !important;
+    color: white !important;
+}
 
 #about {
     .image {
@@ -371,6 +376,7 @@ a.navbar-item.is-active {
   transform: translateY(-5px);
   box-shadow: 0 8px 16px rgba(0,0,0,0.2);
 }
+
 
 
 
