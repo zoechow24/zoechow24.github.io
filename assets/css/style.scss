@@ -120,6 +120,10 @@ a.navbar-item.is-active {
     hr {
         background-color: black;
     }
+  .contact-link:hover {
+    color: var(--accent-color) !important;
+    transition: color 0.3s ease;
+  }
 }
 
 #blog {
@@ -377,6 +381,7 @@ a.navbar-item.is-active {
   transform: translateY(-5px);
   box-shadow: 0 8px 16px rgba(0,0,0,0.2);
 }
+
 
 
 
