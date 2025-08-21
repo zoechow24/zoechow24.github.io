@@ -87,7 +87,13 @@ a.navbar-item.is-active {
         min-width: 25vmax;
         margin: 0.5rem;
     }
+  .button.is-black.is-outlined:hover {
+    background-color: var(--accent-color) !important;
+    border-color: var(--accent-color) !important;
+    color: white !important;
+  }
 }
+
 
 #contact {
     #contact-button {
@@ -365,5 +371,6 @@ a.navbar-item.is-active {
   transform: translateY(-5px);
   box-shadow: 0 8px 16px rgba(0,0,0,0.2);
 }
+
 
 
