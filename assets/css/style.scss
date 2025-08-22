@@ -39,7 +39,7 @@ a.navbar-item.is-active {
 }
 
 .navbar-link:not(.is-arrowless)::after {
-    border-color: grey;
+    border-color: var(--accent-color) !important;
 }
 
 #hero {
@@ -376,3 +376,4 @@ a.navbar-item.is-active {
     transform: translateY(-5px);
     box-shadow: 0 8px 16px rgba(0,0,0,0.2);
 }
+
