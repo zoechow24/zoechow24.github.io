@@ -29,12 +29,12 @@ a.navbar-item:hover,
 }
 
 a.navbar-item.is-active {
-    background-color: rgba($color: #fff, $alpha: 0.25) !important;
+    background-color: var(--accent-color) !important;
     color: white !important;
 
     &:hover {
-        background-color: rgba($color: #fff, $alpha: 0.25) !important;
-        color: grey;
+        background-color: var(--accent-hover) !important;
+        color: white !important;
     }
 }
 
@@ -376,5 +376,6 @@ a.navbar-item.is-active {
     transform: translateY(-5px);
     box-shadow: 0 8px 16px rgba(0,0,0,0.2);
 }
+
 
 
