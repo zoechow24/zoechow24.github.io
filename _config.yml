@@ -11,7 +11,7 @@ title: Zoe Chow
 # Description of the Site
 description: Portfolio
 # URL of Image of the Site
-site-image: /assets/image/site-image.png
+site-image: https://github.com/zoechow24/zoechow24.github.io/blob/master/assets/images/Z.png
 # Keywords of the Site
 site-keywords: 
 # URL for the Image of custom Favicon
@@ -95,6 +95,7 @@ exclude:
   - vendor/cache/
   - vendor/gems/
   - vendor/ruby/
+
 
 
 
