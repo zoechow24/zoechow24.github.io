@@ -11,11 +11,11 @@ title: Zoe Chow
 # Description of the Site
 description: Portfolio
 # URL of Image of the Site
-site-image: https://github.com/zoechow24/zoechow24.github.io/blob/master/assets/images/Z.png
+site-image: https://github.com/zoechow24/zoechow24.github.io/blob/master/assets/images/site-image.png
 # Keywords of the Site
 site-keywords: 
 # URL for the Image of custom Favicon
-favicon-url: /assets/image/Z.png
+favicon-url: https://github.com/zoechow24/zoechow24.github.io/blob/master/assets/images/Z.png
 
 # URL of the Image of Custom Hero Image (i.e., the image in the background of the very first section of the Homepage)
 heroimage: https://www.canva.com/design/DAGwogNH0jw/f_qXEg_YUavXMzDkO6uFdA/view?utm_content=DAGwogNH0jw&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h8fb570b885
@@ -95,6 +95,7 @@ exclude:
   - vendor/cache/
   - vendor/gems/
   - vendor/ruby/
+
 
 
 
