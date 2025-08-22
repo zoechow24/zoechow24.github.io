@@ -15,7 +15,7 @@ site-image: https://www.canva.com/design/DAGwouWOSQk/JAzOWF-P7hZFY1WDmiql6Q/view
 # Keywords of the Site
 site-keywords: 
 # URL for the Image of custom Favicon
-favicon-url: https://www.canva.com/design/DAGwol_CfQU/dR04a0WoDC4xuqf1DZ2KRA/view?utm_content=DAGwol_CfQU&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=hf2617ba6a0
+favicon-url: /assets/image/Z.png
 
 # URL of the Image of Custom Hero Image (i.e., the image in the background of the very first section of the Homepage)
 heroimage: https://www.canva.com/design/DAGwogNH0jw/f_qXEg_YUavXMzDkO6uFdA/view?utm_content=DAGwogNH0jw&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h8fb570b885
@@ -95,6 +95,7 @@ exclude:
   - vendor/cache/
   - vendor/gems/
   - vendor/ruby/
+
 
 
 
