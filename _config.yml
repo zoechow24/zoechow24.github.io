@@ -11,7 +11,7 @@ title: Zoe Chow
 # Description of the Site
 description: Portfolio
 # URL of Image of the Site
-site-image: https://www.canva.com/design/DAGwouWOSQk/JAzOWF-P7hZFY1WDmiql6Q/view?utm_content=DAGwouWOSQk&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h2af53d424d
+site-image: /assets/image/site-image.png
 # Keywords of the Site
 site-keywords: 
 # URL for the Image of custom Favicon
@@ -95,6 +95,7 @@ exclude:
   - vendor/cache/
   - vendor/gems/
   - vendor/ruby/
+
 
 
 
