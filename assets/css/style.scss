@@ -24,7 +24,7 @@
 
 a.navbar-item:hover,
 .navbar-link:hover {
-    background-color: rgba($color: #fff, $alpha: 0.25) !important;
+    background-color: var(--accent-color) !important;
     color: white !important;
 }
 
@@ -41,7 +41,6 @@ a.navbar-item.is-active {
 .navbar-link:not(.is-arrowless)::after {
     border-color: grey;
 }
-
 
 #hero {
     background: rgb(0, 0, 0);
@@ -66,12 +65,15 @@ a.navbar-item.is-active {
         content: "";
     }
 }
+
 .title {
     margin: auto 0.75rem!important;
 }
+
 .subtitle {
     letter-spacing: 0.25rem;
 }
+
 .button.is-black.is-outlined:hover {
     background-color: var(--accent-color) !important;
     border-color: var(--accent-color) !important;
@@ -92,13 +94,7 @@ a.navbar-item.is-active {
         min-width: 25vmax;
         margin: 0.5rem;
     }
-  .button.is-black.is-outlined:hover {
-    background-color: var(--accent-color) !important;
-    border-color: var(--accent-color) !important;
-    color: white !important;
-  }
 }
-
 
 #contact {
     #contact-button {
@@ -120,10 +116,11 @@ a.navbar-item.is-active {
     hr {
         background-color: black;
     }
-  .contact-link:hover {
-    color: var(--accent-color) !important;
-    transition: color 0.3s ease;
-  }
+    
+    .contact-link:hover {
+        color: var(--accent-color) !important;
+        transition: color 0.3s ease;
+    }
 }
 
 #blog {
@@ -216,7 +213,6 @@ a.navbar-item.is-active {
         border: none;
     }
 }
-
 
 #footer {
     #backtotop {
@@ -372,21 +368,11 @@ a.navbar-item.is-active {
             display: inline-block;
         }
     }
-
 }
 
 #project-card:hover .card {
-  background-color: var(--accent-color) !important;
-  border-top: 3px solid var(--accent-color) !important;
-  transform: translateY(-5px);
-  box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+    background-color: var(--accent-color) !important;
+    border-top: 3px solid var(--accent-color) !important;
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0,0,0,0.2);
 }
-
-
-
-
-
-
-
-
-
