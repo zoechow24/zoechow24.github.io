@@ -1,16 +1,59 @@
 - name: "Biochemistry Lab Tools"
   description: "A collection of Python utilities for common biochemistry calculations including protein molecular weight estimation and laboratory solution preparation. Features three main tools - protein molecular weight calculator for Rattus norvegicus PKC Beta-1, sequence-based weight calculator for any protein based on amino acid length, and lab solution calculator for determining volumes of NaCl, MgCl2, and water based on stock and final concentrations."
-  image: "https://images.pexels.com/photos/2280571/pexels-photo-2280571.jpeg?auto=compress&cs=tinysrgb&w=400"
   github_url: "https://github.com/zoechow24/biochemistry-lab-tools"
   language: python
   is_private: true
 
 - name: "Pharma Sales Forecast"
   description: "Follow the CRISP-DM framework to analyze provided data, generate insights, and create visual assets to support executive-level decision-making for a pharmaceutical company preparing for fiscal year-end sales forecasts."
-  image: /assets/images/forecast.jpg
   github_url: "https://github.com/zoechow24/pharma-sales-forecast"
   demo_url: "https://zoechow24.github.io/pharma-sales-forecast/pharma-sales-forecast.html"
   language: R
   is_private: false
+
+- name: "ICU Staffing"
+  description: "SQL + R to analyze ICU/SICU capacity for staffing decisions."
+  github_url: "https://github.com/zoechow24/icu-staffing"
+  demo_url: "https://zoechow24.github.io/icu-staffing/AnalyticsReport.html"
+  language: R
+  is_private: false
+
+- name: "Real Estate Agency Analysis"
+  description: "SQL, XML, and R to analyze real estate agent performance and office sales."
+  github_url: "https://github.com/zoechow24/real-estate-agency-analysis"
+  demo_url: "https://zoechow24.github.io/real-estate-agency-analysis/real-estate-agency-report.html"
+  language: R
+  is_private: false
+
+- name: "Fertilizer Predictions - kNN Classification"
+  description: "kNN classification model to predict the fertilizer based on climate and soil condition."
+  github_url: "https://github.com/zoechow24/fertilizer-kNN-prediction"
+  demo_url: "https://zoechow24.github.io/fertilizer-kNN-prediction/fertilizer_recommendation.html"
+  language: R
+  is_private: false
+
+- name: "Multiple Linear Regression - Ensemble Modeling"
+  description: "Ensemble multiple linear regression models for predictive analysis."
+  github_url: "https://github.com/zoechow24/multiple-regression-ensemble"
+  demo_url: "https://zoechow24.github.io/multiple-regression-ensemble/multiple_linear_regression.html"
+  language: R
+  is_private: false
+
+- name: "Parkinson's Disease Prediction - Ensemble Classification"
+  description: "Predicts Parkinson's Disease using an ensemble of decision trees and logistic regression."
+  github_url: "https://github.com/zoechow24/parkinsons-classification-ensemble"
+  demo_url: "https://zoechow24.github.io/parkinsons-classification-ensemble/Parkinson_Classification.html"
+  language: R
+  is_private: false
+
+- name: "An Ensemble Model: Follow-up Prediction for Brain Tumor Patients"
+  description: "Predicts whether a brain tumor patient requires follow-up using an ensemble model that combines random forest, homogeneous logistic regression, and homogeneous kNN models."
+  github_url: "https://github.com/zoechow24/brain-tumor-follow-up-predictions"
+  demo_url: "https://zoechow24.github.io/brain-tumor-follow-up-predictions/Brain_Tumor_FU_Pred.html"
+  language: R
+  is_private: false
+
+
+
 
   
