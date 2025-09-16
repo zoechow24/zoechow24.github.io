@@ -13,28 +13,27 @@
         </p>
       {% endif %}
       
-      <div class="buttons is-centered" style="margin-top: 1rem;">
-        {% if project.github_url %}
-        <a href="{{ project.github_url }}" target="_blank" class="button is-dark is-small">
-          <span class="icon is-small">
-            <i class="fab fa-github"></i>
-          </span>
-          <span>{% if project.is_private %}Request Access{% else %}GitHub{% endif %}</span>
-        </a>
-        {% endif %}
+      <a href="{{ project.github_url }}" target="_blank" class="button is-dark is-small">
+        <span class="icon is-small">
+          <i class="fab fa-github"></i>
+        </span>
+        <span>{% if project.is_private %}Request Access{% else %}GitHub{% endif %}</span>
+      </a>
+      {% endif %}
 
-        {% if project.demo_url and project.is_private != true %}
-        <a href="{{ project.demo_url }}" target="_blank" class="button is-dark is-small">
-          <span class="icon is-small">
-            <i class="fas fa-external-link-alt"></i>
-          </span>
-          <span>Live Demo</span>
-        </a>
-        {% endif %}
-      </div>
+      <a href="{{ project.demo_url }}" target="_blank" class="button is-dark is-small">
+        <span class="icon is-small">
+          <i class="fas fa-external-link-alt"></i>
+        </span>
+        <span>Live Demo</span>
+      </a>
+      
+      {% endif %}
+
     </div>
   </div>
 </div>
+
 
 
 
