@@ -387,11 +387,18 @@ a.navbar-item.is-active {
   border-color: #0d1b2a !important;
   color: white !important;
   transition: all 0.3s ease;
-  display: inline-flex;
+  display: flex;
   align-items: center;
   justify-content: center;
   padding: 0.25rem 0.75rem;
   font-size: 0.875rem;
+  position: relative;
+}
+
+.project-button .button-text {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 /* Hover effect */
@@ -408,8 +415,9 @@ a.navbar-item.is-active {
 }
 
 /* Space between icon and text */
-.project-button .icon + span {
-  margin-left: 0.5rem;
+.project-button .icon {
+  margin-right: 0.5rem;
+  position: relative; /* stays left of centered text */
 }
 
 
