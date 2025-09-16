@@ -390,14 +390,14 @@ a.navbar-item.is-active {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  padding-left: 1rem;
-  padding-right: 1rem;
+  padding: 0.25rem 0.75rem;
+  font-size: 0.875rem;
 }
 
 /* Hover effect */
 .project-button:hover {
   background-color: white !important; /* your accent color */
-  border-color: var(--accent-color) !important;
+  border-color: white !important;
   color: #0d1b2a !important;
 }
 
@@ -411,6 +411,7 @@ a.navbar-item.is-active {
 .project-button .icon + span {
   margin-left: 0.5rem;
 }
+
 
 
 
