@@ -3,30 +3,33 @@
         <div class="container">
             <h2 class="title is-2 has-text-black" style="margin-bottom: 40px;">Projects</h2>
             
-            <!-- Python Projects Section -->
+            <!-- R Projects Section -->
             <div style="margin-bottom: 60px; padding-top: 20px;">
-                <h3 class="title is-3 has-text-black" style="margin-bottom: 60px;">Python</h3>
+                <h3 class="title is-3 has-text-black" style="margin-bottom: 60px;">R</h3>
                 <div class="columns is-multiline is-centered" style="padding-top: 20px;">
                     {% for project in site.data.projects %}
-                    {% if project.category == "Python" %}
-                    <div class="column is-one-third">
-                        {% include project-card.html %}
-                    </div>
+                        {% if project.language == "R" %}
+                        <div class="column is-one-third">
+                            {% include project-card.html %}
+                        </div>
                     {% endif %}
                     {% endfor %}
                 </div>
             </div>
             
-            <!-- R Projects Section -->
+            <!-- Python Projects Section -->
             <div style="margin-bottom: 60px;">
-                <h3 class="title is-3 has-text-black" style="margin-bottom: 120px;">R</h3>
+                <h3 class="title is-3 has-text-black" style="margin-bottom: 20px;">Python</h3>
+                <p class="subtitle is-5 has-text-grey" style="margin-bottom: 40px;">
+                    These repositories are private. Please request access to view the code.
+                </p>
                 <div class="columns is-multiline is-centered" style="padding-top: 20px;">
                     {% for project in site.data.projects %}
-                        {% if project.category == "R" %}
-                        <div class="column is-one-third">
-                            {% include project-card.html %}
-                        </div>
-                        {% endif %}
+                    {% if project.language == "python" %}
+                    <div class="column is-one-third">
+                        {% include project-card.html %}
+                    </div>
+                    {% endif %}
                     {% endfor %}
                 </div>
             </div>
