@@ -427,5 +427,18 @@ a.navbar-item.is-active {
   border-color: var(--accent-hover) !important;
 }
 
+#project-card .card {
+  height: auto;               /* dynamic height */
+  min-height: 200px;          /* optional min height */
+}
+
+#project-card .card-content .content {
+  white-space: normal;        /* allow line breaks */
+  overflow-wrap: break-word;  /* prevents words from overflowing */
+}
+
+
+
+
 
 
