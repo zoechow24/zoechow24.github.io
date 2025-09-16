@@ -390,12 +390,12 @@ a.navbar-item.is-active {
   padding: 0.25rem 0.75rem;
   font-size: 0.875rem; /* same as is-small */
   transition: all 0.3s ease;
-}
 
-.project-button .button-content {
-  display: flex;
+  display: grid;
+  grid-template-columns: auto 1fr;
+  grid-gap: 0.5rem;      /* space between icon and text */
   align-items: center;
-  justify-content: center;
+  justify-items: center; /* centers text inside remaining space */
 }
 
 /* Hover effect */
@@ -411,10 +411,6 @@ a.navbar-item.is-active {
   border-color: var(--accent-hover) !important;
 }
 
-/* Space between icon and text */
-.project-button .icon {
-  margin-right: 0.5rem;
-}
 
 
 
