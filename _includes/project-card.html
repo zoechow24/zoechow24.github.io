@@ -16,25 +16,31 @@
       <div class="buttons is-centered" style="margin-top: 1rem;">
         {% if project.github_url %}
         <a href="{{ project.github_url }}" target="_blank" class="button project-button">
-          <span class="icon">
-            <i class="fab fa-github"></i>
+          <span class="button-content">
+            <span class="icon">
+              <i class="fab fa-github"></i>
+            </span>
+            <span class="button-text">{% if project.is_private %}Request Access{% else %}GitHub{% endif %}</span>
           </span>
-          <span class="button-text">{% if project.is_private %}Request Access{% else %}GitHub{% endif %}</span>
         </a>
         {% endif %}
-        
+
         {% if project.demo_url and project.is_private != true %}
         <a href="{{ project.demo_url }}" target="_blank" class="button project-button">
-          <span class="icon">
-            <i class="fas fa-external-link-alt"></i>
+          <span class="button-content">
+            <span class="icon">
+              <i class="fas fa-external-link-alt"></i>
+            </span>
+            <span class="button-text">Live Demo</span>
           </span>
-          <span class="button-text">Live Demo</span>
         </a>
         {% endif %}
       </div>
 
+
     </div>
   </div>
 </div>
+
 
 
