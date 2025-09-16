@@ -418,7 +418,7 @@ a.navbar-item.is-active {
 .project-button:hover {
   background-color: white !important;   /* hover white */
   color: #0d1b2a !important;           /* dark text */
-  border-color: #0d1b2a !important;    /* dark border */
+  border-color: white !important;    /* dark border */
 }
 
 /* Active state */
@@ -426,5 +426,6 @@ a.navbar-item.is-active {
   background-color: var(--accent-hover) !important;
   border-color: var(--accent-hover) !important;
 }
+
 
 
