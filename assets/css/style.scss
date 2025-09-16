@@ -396,9 +396,9 @@ a.navbar-item.is-active {
 
 /* Hover effect */
 .project-button:hover {
-  background-color: var(--accent-color) !important; /* your accent color */
+  background-color: white !important; /* your accent color */
   border-color: var(--accent-color) !important;
-  color: white !important;
+  color: #0d1b2a !important;
 }
 
 /* Active state */
@@ -411,6 +411,7 @@ a.navbar-item.is-active {
 .project-button .icon + span {
   margin-left: 0.5rem;
 }
+
 
 
 
