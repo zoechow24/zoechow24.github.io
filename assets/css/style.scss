@@ -396,14 +396,14 @@ a.navbar-item.is-active {
 }
 
 .project-button {
-  position: relative;             /* needed for absolute icon */
-  background-color: #0d1b2a !important;
+  position: relative;
+  background-color: #0d1b2a !important; /* Dark button */
   border-color: #0d1b2a !important;
   color: white !important;
-  padding: 0.25rem 1rem;          /* wider padding for icon space */
-  font-size: 0.875rem;            /* small size */
+  padding: 0.25rem 1rem;
+  font-size: 0.875rem;
   transition: all 0.3s ease;
-  text-align: center;             /* centers the text inside the button */
+  text-align: center;
 }
 
 /* Icon absolutely positioned on the left */
@@ -414,11 +414,11 @@ a.navbar-item.is-active {
   transform: translateY(-50%);
 }
 
-/* Hover effect: white background, dark text */
+/* Hover: white background, dark text */
 .project-button:hover {
-  background-color: white !important;
-  color: #0d1b2a !important;
-  border-color: white !important;
+  background-color: white !important;   /* hover white */
+  color: #0d1b2a !important;           /* dark text */
+  border-color: #0d1b2a !important;    /* dark border */
 }
 
 /* Active state */
@@ -426,7 +426,5 @@ a.navbar-item.is-active {
   background-color: var(--accent-hover) !important;
   border-color: var(--accent-hover) !important;
 }
-
-
 
 
