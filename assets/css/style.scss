@@ -383,17 +383,34 @@ a.navbar-item.is-active {
     box-shadow: 0 8px 16px rgba(0,0,0,0.2);
 }
 .project-button {
-    transition: all 0.3s ease;
-    
-    &:hover {
-        background-color: var(--accent-color) !important;
-        border-color: var(--accent-color) !important;
-        color: white !important;
-    }
-    
-    &:active {
-        background-color: var(--accent-hover) !important;
-        border-color: var(--accent-hover) !important;
-    }
+  background-color: #0d1b2a !important; /* dark navy */
+  border-color: #0d1b2a !important;
+  color: white !important;
+  transition: all 0.3s ease;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
+
+/* Hover effect */
+.project-button:hover {
+  background-color: var(--accent-color) !important; /* your accent color */
+  border-color: var(--accent-color) !important;
+  color: white !important;
+}
+
+/* Active state */
+.project-button:active {
+  background-color: var(--accent-hover) !important;
+  border-color: var(--accent-hover) !important;
+}
+
+/* Space between icon and text */
+.project-button .icon + span {
+  margin-left: 0.5rem;
+}
+
+
 
