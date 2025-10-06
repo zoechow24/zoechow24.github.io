@@ -48,8 +48,14 @@
   is_private: false
 
 - name: "VCF File Parsing"
-  description: "Create an algorithm that processes VCF file and produces a dictionary that counts diseases that have an AF_EXAC key less than 0.0001."
+  description: "Create an algorithm that processes VCF file and counts diseases that have AF_EXAC keys less than 0.0001."
   github_url: "https://github.com/zoechow24/BINF6250F25-Allen/tree/Project01_PR/Project01"
+  language: Python
+  is_private: false
+
+- name: "Markov Model"
+  description: "Build Markov Model from words and generate new texts"
+  github_url: "https://github.com/zoechow24/BINF6250F25-Project02/tree/project02_PR/Project02"
   language: Python
   is_private: false
 
@@ -63,6 +69,7 @@
 
 
   
+
 
 
 
