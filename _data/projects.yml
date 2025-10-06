@@ -48,8 +48,14 @@
   is_private: false
 
 - name: "VCF File Parsing"
-  description: Create an algorithm that processes VCF file and produces a dictionary that counts diseases that have an AF_EXAC key less than 0.0001.
+  description: "Create an algorithm that processes VCF file and produces a dictionary that counts diseases that have an AF_EXAC key less than 0.0001."
   github_url: "https://github.com/zoechow24/BINF6250F25-Allen/tree/Project01_PR/Project01"
+  language: Python
+  is_private: false
+
+- name: "Gibbs Sampling"
+  description: "Create an algorithm that performs Gibbs Sampling"
+  github_url: "https://github.com/zoechow24/BINF6250F25/tree/Project03_PR/Project03"
   language: Python
   is_private: false
 
@@ -57,6 +63,7 @@
 
 
   
+
 
 
 
