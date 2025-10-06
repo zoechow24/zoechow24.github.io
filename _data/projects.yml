@@ -48,9 +48,8 @@
   is_private: false
 
 - name: "VCF File Parsing"
-  description:
+  description: Create an algorithm that processes VCF file and produces a dictionary that counts diseases that have an AF_EXAC key less than 0.0001.
   github_url: "https://github.com/zoechow24/BINF6250F25-Allen/tree/Project01_PR/Project01"
-  demo_url:
   language: Python
   is_private: false
 
@@ -58,5 +57,6 @@
 
 
   
+
 
 
