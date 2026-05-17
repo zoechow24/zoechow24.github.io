@@ -45,7 +45,11 @@ author-name: Zoe Chow
 # URL for the Image of the Author
 author-image: assets/images/1740187583909.jpeg
 # 60 Words About the Author
-author-about: I am a graduate student at Northeastern University pursuing my Master of Science in Bioinformatics and currently interning at Pfizer, where I develop web applications to capture and standardize experimental conditions and metadata from medium- and high-throughput chemical reactions. Previously, I worked as a research technician at Weill Cornell Medical School. I am passionate about medicine and genetics, and I'm fascinated by applying machine learning techniques to advance biological and medical research.
+author-about: |
+  I am a graduate student at Northeastern University pursuing my M.S. in Bioinformatics and currently completing a co-op at Pfizer. My academic and professional journey has been shaped by a strong interest in both medicine and technology, and I'm particularly motivated by opportunities to connect the two through bioinformatics, data analytics, and machine learning.
+
+  I enjoy building tools and programs that help make sense of complex biological and chemical data, and I'm excited by the challenge of translating experimental data into actionable insights. Previously, I worked as a research technician at Weill Cornell Medical School. Long term, I hope to contribute to advances in genetics, drug development, and patient care through innovative, data-driven software solutions.
+
 # URL to the Author's Profile (i.e., Github, Twitter, Stackoverflow, etc)
 author-url: https://github.com/zoechow24
 
